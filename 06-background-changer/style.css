@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Thin', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 15% 45%;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: none;
+}

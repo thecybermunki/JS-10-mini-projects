@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Thin', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 15% 45%;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    font-family: inherit;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 512px;
+}
+
+#container {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    color: white;
+    font-family: inherit;
+    margin: 8px;
+    padding: 2rem;
+}
